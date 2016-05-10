@@ -145,9 +145,9 @@
                 }
                 if (d === undefined || d === null) {
                     if (tzEnabled) {
-                        returnMoment = moment().tz(options.timeZone).startOf('d');
+                        returnMoment = moment().tz(options.timeZone).startOf('n');
                     } else {
-                        returnMoment = moment().startOf('d');
+                        returnMoment = moment().startOf('n');
                     }
                 } else {
                     if (tzEnabled) {
